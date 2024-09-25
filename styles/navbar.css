@@ -1,0 +1,48 @@
+.navbar {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(119, 6, 6);
+    color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-header{
+    margin: 5px;
+}
+
+.nav-title{
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 1s background-color, 1s color;
+}
+
+.nav-title:hover{
+    background-color: white;
+    color: red;
+}
+
+
+.nav-ul{
+    margin: 5px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.nav-li{
+    display: inline-block;
+    padding: 8px;
+    margin: 3px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 1s background-color, 1s color;
+}
+
+.nav-li:hover{
+    background-color: white;
+    color: red;
+}
